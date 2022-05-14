@@ -1,14 +1,15 @@
 # SOAP
+ > Type
   - partner WSDL -> loosly typed
   - Enterprise WSDL -> strongly typed (specific to our org configuration, i.e if metadata changes then good practice to update WSDL)
 
-* WSDL 
+ __WSDL__
  - contain binding, protocol and object to make API call
  
 
 # SF SOAP login
     with username & password+security Token
-    ~ note: Since you’re making an API request from an IP address unknown to Salesforce, you need to append your security token to the end of your password
+    **note: **  _Since you’re making an API request from an IP address unknown to Salesforce, you need to append your security token to the end of your password_
 
 # SAMPLE 
     *Endpoint*
