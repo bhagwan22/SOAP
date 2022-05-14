@@ -12,10 +12,10 @@
     **note: **  _Since you’re making an API request from an IP address unknown to Salesforce, you need to append your security token to the end of your password_
 
 # SAMPLE 
-    *Endpoint*
+    **Endpoint**
     https://login.salesforce.com/services/Soap/c/54.0/
 
-    *BODY*
+    **BODY**
     <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:enterprise.soap.sforce.com">
        <soapenv:Header>
           <urn:LoginScopeHeader>
