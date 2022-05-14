@@ -1,6 +1,6 @@
 # SOAP
-  partner WSDL - loosly typed
-  Enterprise WSDL - strongly typed (specific to our org configuration, i.e if metadata changes then good practice to update WSDL)
+  - partner WSDL -> loosly typed
+  - Enterprise WSDL -> strongly typed (specific to our org configuration, i.e if metadata changes then good practice to update WSDL)
 
 * WSDL 
  - contain binding, protocol and object to make API call
